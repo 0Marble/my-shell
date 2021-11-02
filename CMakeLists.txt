@@ -8,7 +8,4 @@ set(INCLUDES ${INCLUDES} include/)
 
 target_include_directories(my_shell PUBLIC ${INCLUDES})
 
-add_executable(my_grep extras/grep.c)
-add_executable(my_cat extras/cat.c)
-add_executable(my_mv extras/mv.c)
 
